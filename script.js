@@ -9,12 +9,11 @@ incrementButton.addEventListener("click", () => {
     const currentValue = parseInt(counterParagraph.textContent);
 
     // Show alert with the current value (before increment)
-    alert("Current value before increment: " + currentValue);
+    alert("Current value before increment:0" + currentValue);
 
     // Increment the counter
     const newValue = currentValue + 1;
 
     // Update the paragraph with the new value
-	expect(alertText).to.equal('Current value before increment: 0');
     counterParagraph.textContent = newValue;
 });
