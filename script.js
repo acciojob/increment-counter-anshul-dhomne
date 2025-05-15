@@ -15,5 +15,6 @@ incrementButton.addEventListener("click", () => {
     const newValue = currentValue + 1;
 
     // Update the paragraph with the new value
+	expect(alertText).to.equal('Current value before increment: 0');
     counterParagraph.textContent = newValue;
 });
