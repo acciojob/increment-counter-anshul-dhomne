@@ -17,6 +17,4 @@ incrementButton.addEventListener("click", () => {
     // Update the paragraph with the new value
     counterParagraph.textContent = newValue;
 });
-cy.on('window:alert', alertText => {
-    expect(alertText).to.equal('Current value before increment: 0');
-});
+
